@@ -2,6 +2,13 @@
 
 /*----------------------------------Section titulo Home ----------------*/
 
+section.page-home{
+  width: 100%;
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+}
+
 section.titulo {
   margin-top: 86px;
   height: 395px;
@@ -106,8 +113,9 @@ footer i:hover {
     cursor: pointer;
     user-select: none; 
   }
-  
-
+  section.titulo {
+    margin-top: 70px;
+  }
   nav .menu {
     display: none;
     flex-direction: column;

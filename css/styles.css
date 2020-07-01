@@ -168,3 +168,14 @@ footer i:hover {
   }
 
 }
+
+@media only screen and (max-width: 1000px) {
+  nav {
+    height: 70px;
+  }
+  nav .botao-menu-responsivo {
+    display: flex;
+    cursor: pointer;
+    user-select: none; 
+  }
+}

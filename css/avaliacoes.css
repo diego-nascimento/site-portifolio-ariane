@@ -1,0 +1,43 @@
+#avaliacoes{
+  position: absolute;
+  top: -90px;
+  
+}
+.page-avaliacoes{
+  position: relative;
+  margin-top: 3%;
+}
+
+.titulo-avaliacoes{
+  text-align: center;
+  padding-bottom:7%;
+}
+
+.lista-avaliacoes{
+  list-style: none;
+}
+
+.lista-avaliacoes .item-avaliacao p {
+  font-style: italic;
+}
+
+.item-avaliacao {
+  margin-bottom: 50px;
+}
+
+.item-avaliacao a {
+  text-decoration: none;
+}
+
+.lista-avaliacoes .item-avaliacao b{
+  font-size: 16px;
+}
+.lista-avaliacoes .item-avaliacao b{
+  font-style: normal;
+  font-size: 18px;
+}
+
+.lista-avaliacoes .item-avaliacao b:hover {
+  border-bottom: 2px solid black;
+  font-style: normal;
+}
