@@ -1,0 +1,42 @@
+#certificacoes{
+  position: absolute;
+  top: 0px;
+}
+.page-certificacoes{
+  position: relative;
+  padding-top: 7%;
+  
+}
+.titulo-certificacoes{
+  text-align: center;
+  padding-bottom:7%;
+}
+
+.certificado {
+  list-style: none;
+  margin-bottom: 20px;
+  width: 100%;
+  overflow: hidden;
+}
+
+.certificado:last-child{
+  margin-bottom: 0px;
+}
+
+.certificado img{
+  width: 100%;
+  transition: 0.3s;
+}
+
+.certificado img:hover{
+  transform: scale(1.04);
+  
+}
+
+@media only screen and (max-width: 750px) {
+  #certificacoes{
+      position: absolute;
+      top: 15px;
+  }
+
+}
