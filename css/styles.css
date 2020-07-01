@@ -125,6 +125,34 @@ nav .menu {
   overflow: hidden;
 }
 
+/*----------------------------rodapé----------------*/
+
+footer {
+  background-color: rgba(0,0,0,0.86);
+  height: 250px;
+  display: flex;
+  align-items: center;
+  justify-content: space-evenly;
+  flex-direction: column;
+}
+
+footer h1 {
+  font-size: 26px;
+  color: white;
+  letter-spacing: 1px;
+}
+
+footer i {
+  user-select: none; 
+  color: white;
+  transition: 0.2s;
+  margin: 0 5px;
+}
+
+footer i:hover {
+  color: rgb(179, 176, 176);
+}
+
 @media only screen and (max-width: 750px) {
   
   .margin-responsive {
@@ -139,7 +167,4 @@ nav .menu {
     font-size: 36px;
   }
 
- 
-
- 
 }

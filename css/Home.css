@@ -75,6 +75,7 @@ footer h1 {
 }
 
 footer i {
+  user-select: none; 
   color: white;
   transition: 0.2s;
   margin: 0 5px;
