@@ -1,0 +1,13 @@
+@keyframes down-up {
+  0%{
+    top: 20px;
+    opacity: 0;
+  }100%{
+    top: 0px;
+    opacity: 1;  
+  }
+}
+
+.efeito-down-up{
+  animation: down-up 1s forwards;
+}

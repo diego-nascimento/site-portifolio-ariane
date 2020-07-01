@@ -1,0 +1,62 @@
+.page-sobre-mim{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  position: relative;
+  padding-bottom: 7%;
+}
+
+#sobre-mim{
+  position: absolute;
+  top: -90px;
+}
+
+.titulo-sobre-mim{
+  text-align: center;
+  margin-bottom: 3%;
+}
+
+.page-sobre-mim .avatar{
+  display: flex;
+  align-items: center;
+  justify-self: center;
+  flex-direction: column;
+  margin-bottom: 7%;
+}
+
+.avatar .foto {
+  margin-bottom: 10px;
+  border-radius: 50%;
+  width: 300px;
+}
+
+.texto p{
+  margin-bottom: 5%;
+  line-height: 22px;
+}
+
+.botao-contato{
+  align-self: flex-start;
+  margin-top: 2%;
+  padding: 20px 30px;
+  background-color: #32323c;
+  color: #fff;
+  border-radius: 25px;
+  text-decoration: none;
+}
+
+.botao-contato:hover{
+  background-color: #404040;
+}
+
+
+@media only screen and (max-width: 750px) {
+  #sobre-mim{
+      position: absolute;
+      top: -50px;
+  }
+
+}
+
+
