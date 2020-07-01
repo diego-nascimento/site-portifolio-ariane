@@ -17,7 +17,7 @@
   list-style: none;
 }
 
-.lista-avaliacoes .item-avaliacao p {
+.lista-avaliacoes .item-avaliacao cite {
   font-style: italic;
 }
 

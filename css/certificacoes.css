@@ -10,6 +10,7 @@
 .titulo-certificacoes{
   text-align: center;
   padding-bottom:7%;
+  user-select: none; 
 }
 
 .certificado {
@@ -17,6 +18,7 @@
   margin-bottom: 20px;
   width: 100%;
   overflow: hidden;
+  user-select: none; 
 }
 
 .certificado:last-child{
@@ -26,6 +28,7 @@
 .certificado img{
   width: 100%;
   transition: 0.3s;
+  user-select: none; 
 }
 
 .certificado img:hover{
