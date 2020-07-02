@@ -1,6 +1,6 @@
 #contato{
   position: absolute;
-  top: 0px;
+  top: 50px;
 }
 
 
@@ -20,6 +20,7 @@ input[type="text"], input[type="email"], .input-texto{
   font-size: 18px;
   color: #000;
   font-family: 'Alegreya Sans', sans-serif;
+  font-weight: 400;
 }
 .input-texto{
   width: 100%;
@@ -96,32 +97,59 @@ input[type="text"], input[type="email"], .input-texto{
 
 
 
-.dado h3{
-  margin-bottom: 5px;
+.info h3{
+  margin-bottom: 10px;
+  border-bottom: 1px solid #404040;
 }
 
 
-.dado:last-child{
+
+
+.info:last-child{
   margin-top: 80px;
 }
 
-.dado{
+.info{
   display: flex;
-  
   flex-direction: column;
-  
-
 }
 
+.info h3{
+  align-items: flex-start;
+  width: 300px;
+}
 
-
-.dado a{
+.info a{
   text-decoration: none;
 }
 
-.dado span {
+.info span {
   font-size: 18px;
 }
+
+.botao-link{
+  display: grid;
+  grid-template-columns: 1fr 3fr;
+  grid-gap: 5px;
+}
+
+.botao-link b{
+  position: relative;
+  top: -5px;
+}
+
+.dado{
+  margin-top: 10px;
+}
+
+.botao-whatsapp{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: 20px;
+  width: 100%;
+}
+
 
 @media only screen and (max-width: 1000px) {
   .meios-contato{
@@ -139,7 +167,7 @@ input[type="text"], input[type="email"], .input-texto{
 
   #contato{
     position: absolute;
-    top: -30px;
+    top: -50px;
   }
 
   .dados{
@@ -151,5 +179,14 @@ input[type="text"], input[type="email"], .input-texto{
     flex-direction: column;    
   }
 
+  .botao-whatsapp{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 20px;
+    width: 90%;
+  }
+
  
 }
+

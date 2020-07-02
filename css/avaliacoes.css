@@ -1,11 +1,11 @@
 #avaliacoes{
   position: absolute;
-  top: -90px;
+  top: -70px;
   
 }
 .page-avaliacoes{
   position: relative;
-  margin-top: 3%;
+  margin-top: 7%;
 }
 
 .titulo-avaliacoes{
@@ -40,4 +40,13 @@
 .lista-avaliacoes .item-avaliacao b:hover {
   border-bottom: 2px solid black;
   font-style: normal;
+}
+
+
+@media only screen and (max-width: 750px) {
+  #avaliacoes{
+      position: absolute;
+      top: -50px;
+  }
+
 }
