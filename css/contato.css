@@ -62,10 +62,7 @@ input[type="text"], input[type="email"], .input-texto{
   width: 100%;
 }
 
-.meios-contato .redes-sociais{
-  margin-top: 20px;
-  align-self: flex-start;
-}
+
 
 .mapa {
   width: 100%;
@@ -105,13 +102,12 @@ input[type="text"], input[type="email"], .input-texto{
 
 
 
-.info:last-child{
-  margin-top: 80px;
-}
+
 
 .info{
   display: flex;
   flex-direction: column;
+  justify-content: start;
 }
 
 .info h3{
