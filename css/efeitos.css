@@ -9,5 +9,6 @@
 }
 
 .efeito-down-up{
-  animation: down-up 1s forwards;
+  animation: down-up 1s forwards ease-in-out;
+  position: relative;
 }
