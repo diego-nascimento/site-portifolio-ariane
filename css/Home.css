@@ -2,14 +2,14 @@
 
 /*----------------------------------Section titulo Home ----------------*/
 
-section.page-home{
+.page-home{
   width: 100%;
   display: flex;
   align-items: center;
   flex-direction: column;
 }
 
-section.titulo {
+.titulo {
   margin-top: 86px;
   height: 395px;
   background-image: url(/assets/imagem-titulo.jpg);
@@ -21,7 +21,7 @@ section.titulo {
   justify-content: center;
 }
 
-section.titulo h1 {
+.titulo h1 {
   border: 10px solid #000;
   padding: 0px 5px;
   text-align: center;
@@ -98,41 +98,14 @@ footer i:hover {
   
   /*------------------Titulo-----------*/
 
-  section.titulo {
+  .titulo {
     height: 190px;
   }
 
 }
 
 @media only screen and (max-width: 1000px) {
-  nav {
-    height: 70px;
-  }
-  nav .botao-menu-responsivo {
-    display: flex;
-    cursor: pointer;
-    user-select: none; 
-  }
-  section.titulo {
-    margin-top: 70px;
-  }
-  nav .menu {
-    display: none;
-    flex-direction: column;
-    color: white; 
-    align-items: center;
-    list-style: none;
-    justify-content: space-evenly;  
-    position: absolute;
-    background-color: black;
-    width: 100%;
-    top: 65px;
-    height: 60vh;    
-  }
-
-  nav .mostrar {
-    display: flex;
-  }
+  
 
   .scrolar {
     height: 100%;

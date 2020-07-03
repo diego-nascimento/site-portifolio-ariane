@@ -58,30 +58,44 @@ h3 {
   position: relative;
 }
 
-p, a, cite, span {
+p, a, blockquote, span {
   font-size: 18px;
   color: #404040;
   font-family: 'Alegreya Sans', sans-serif;
 }
 
-b {
+b, .image-desc {
   font-size: 18px;
   color: #404040;
   font-family: 'Alegreya Sans', sans-serif;
+}
+
+main{
+  width: 100%;
+  display: flex;
+  align-items: center;
+  flex-direction: column;
 }
 
 /*----------------------------navegação------------------------ */
-nav {
+
+header{
   background-color: black;
+  height: 86px;
+  width: 100%;
+  font-family: 'Alegreya Sans', sans-serif;
+  position: fixed;
+  z-index: 10;
+}
+
+nav {
   height: 86px;
   width: 100%;
   display: flex;
   align-items: center;
   justify-content: center;
-  font-family: 'Alegreya Sans', sans-serif;
-  position: fixed;
-  z-index: 10;
 }
+
 
 nav .botao-menu-responsivo {
    color: white;
@@ -190,9 +204,42 @@ footer i:hover {
 }
 
 @media only screen and (max-width: 1000px) {
+  header {
+    height: 70px;
+  }
+
   nav {
     height: 70px;
   }
+
+  nav .botao-menu-responsivo {
+    display: flex;
+    cursor: pointer;
+    user-select: none; 
+  }
+
+  section.titulo {
+    margin-top: 70px;
+  }
+
+  nav .menu {
+    display: none;
+    flex-direction: column;
+    color: white; 
+    align-items: center;
+    list-style: none;
+    justify-content: space-evenly;  
+    position: absolute;
+    background-color: black;
+    width: 100%;
+    top: 65px;
+    height: 60vh;    
+  }
+
+  nav .mostrar {
+    display: flex;
+  }
+  
   nav .botao-menu-responsivo {
     display: flex;
     cursor: pointer;
