@@ -7,7 +7,7 @@
   margin-top: 7%;
 }
 
-#sobre-mim{
+#sobre{
   position: absolute;
   top: -90px;
 }
@@ -52,7 +52,7 @@
 
 
 @media only screen and (max-width: 750px) {
-  #sobre-mim{
+  #sobre{
       position: absolute;
       top: -60px;
   }
