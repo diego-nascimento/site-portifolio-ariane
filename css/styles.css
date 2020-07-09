@@ -10,6 +10,12 @@
   padding: 0;
 }
 
+.nao-aparece{
+  visibility: hidden;
+  height: 0px;
+  position: absolute;
+}
+
 body {
   width: 100%;
   height: 100%;

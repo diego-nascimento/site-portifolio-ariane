@@ -80,6 +80,10 @@ input[type="text"], input[type="email"], .input-texto{
   font-size: 18px;
 }
 
+.form-erro, .form-sucesso{
+  text-align: center;
+}
+
 .dados{
   margin-top: 40px;
   margin-left: 30px;

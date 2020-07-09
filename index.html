@@ -301,20 +301,23 @@
         <div class="meios-contato contentsize">
           <div class="formulario margin-responsive">
             <h2 class="titulo-cont">Dúvidas e Sugestões:</h2>
-            <form action="">
+            <form action="action" method="POST" action="enviar-sendgrid.php" class="formphp">
               <div class="campo">
                 <b>Nome</b><span>  (Obrigatorio)</span><br>
-                <input type="text" class="nome">
+                <input type="text" class="nome" name="nome" required>
               </div>
+
+              <label class="nao-aparece">Se voce eh um robo, nao deixa em branco</label>
+              <input type="text" class="nao-aparece" name="leaveblank" value="http://">
               <div class="campo">
                 <b>E-mail</b><span>  (Obrigatorio)</span><br>
-                <input type="email" class="email">
+                <input type="email" class="email" name="email" required>
               </div>
               <div class="campo">
                 <b>Mensagem</b><span>  (Obrigatorio)</span><br>
-                <textarea name="mensagem" class="input-texto"  cols="30" rows="10"></textarea>
+                <textarea name="mensagem" class="input-texto"  cols="30" rows="10" id="mensagem" required></textarea>
               </div>
-              <button type="submit" class='botao-contato margin-responsive botao-enviar'>Enviar</button>
+              <button type="submit" id="enviar" name="enviar" class='botao-contato margin-responsive botao-enviar'>Enviar</button>
             </form>
           </div>
 
@@ -359,17 +362,19 @@
         <a href="https://www.linkedin.com/in/ariane-dos-santos-miranda-270127187/" target="blank"><i class="fa fa-linkedin-square fa-2x" aria-hidden="true"></i></a>
       </div>
     </footer>
+    <script src="scripts/simple-form.js"></script>
     <script src="scripts/javascript.js"></script>
+    
 
-      <!-- Global site tag (gtag.js) - Google Analytics -->
-  <script async src="https://www.googletagmanager.com/gtag/js?id=UA-171524911-1"></script>
-  <script>
-    window.dataLayer = window.dataLayer || [];
-    function gtag(){dataLayer.push(arguments);}
-    gtag('js', new Date());
+ <!-- Global site tag (gtag.js) - Google Analytics -->
+<script async src="https://www.googletagmanager.com/gtag/js?id=UA-172182210-1"></script>
+<script>
+  window.dataLayer = window.dataLayer || [];
+  function gtag(){dataLayer.push(arguments);}
+  gtag('js', new Date());
 
-    gtag('config', 'UA-171524911-1');
-  </script>
+  gtag('config', 'UA-172182210-1');
+</script>
 
 </body>
 </html>
