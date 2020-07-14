@@ -1,5 +1,7 @@
-.titulo{
-  height: 200px;
+#avaliacoes{
+  position: absolute;
+  top: -90px;
+  
 }
 .page-avaliacoes{
   position: relative;
