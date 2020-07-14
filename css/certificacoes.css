@@ -1,5 +1,6 @@
-.titulo{
-  height: 200px;
+#certificacoes{
+  position: absolute;
+  top: 50px;
 }
 .page-certificacoes{
   position: relative;
