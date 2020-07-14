@@ -140,6 +140,7 @@ nav .menu {
   display: flex;
   align-items: center;
   justify-content: center;
+  text-decoration: none;
 }
 
 .item p {
