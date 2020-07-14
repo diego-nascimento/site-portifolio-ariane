@@ -7,9 +7,8 @@
   margin-top: 7%;
 }
 
-#sobre{
-  position: absolute;
-  top: -90px;
+.titulo{
+  height: 200px;
 }
 
 .titulo-sobre-mim{

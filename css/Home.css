@@ -9,31 +9,7 @@
   flex-direction: column;
 }
 
-.titulo {
-  margin-top: 86px;
-  height: 395px;
-  background-image: url(/assets/imagem-titulo.jpg);
-  background-repeat: no-repeat;
-  background-size: cover;
-  background-position: center;
-  display: flex;
-  align-items: center;
-  justify-content: center;
-}
 
-.titulo h1 {
-  border: 10px solid #000;
-  padding: 0px 5px;
-  text-align: center;
-}
-/*-----------------------------------Texto page home-------------------------*/
-
-.conteudo-home h2 {
-  text-align: center;
-  font-weight: 500;
-  padding-top: 7%;
-  padding-bottom: 7%;
-}
 
 .conteudo-home p {
   margin-bottom: 5%;
@@ -61,6 +37,20 @@
 
 .conteudo-home .chamado-servicos a:link {
   text-decoration: none;
+}
+
+.botao-contato{
+  
+  margin-top: 2%;
+  padding: 20px 30px;
+  background-color: #32323c;
+  color: #fff;
+  border-radius: 25px;
+  text-decoration: none;
+}
+
+.botao-contato:hover{
+  background-color: #404040;
 }
 
 
