@@ -30,11 +30,14 @@ input[type='email'],
   color: #000;
   font-family: 'Alegreya Sans', sans-serif;
   font-weight: 400;
+  box-sizing: border-box;
 }
+
 .input-texto {
   width: 100%;
   height: 200px;
   resize: none;
+  box-sizing: border-box;
 }
 
 .titulo-contato {
@@ -60,14 +63,8 @@ input[type='email'],
 .meios-contato {
   display: grid;
   grid-template-columns: 1fr 1fr;
-  grid-gap: 60px;
+  grid-gap: 10px;
   width: 100%;
-}
-
-.mapa {
-  width: 100%;
-  height: 200px;
-  margin-bottom: 20px;
 }
 
 .botao-enviar {
@@ -143,8 +140,30 @@ input[type='email'],
 }
 
 @media only screen and (max-width: 1000px) {
+  .page-contato {
+    position: relative;
+    padding-top: 7%;
+    padding-bottom: 7%;
+    margin: 0 20px;
+  }
+
   .meios-contato {
     grid-template-columns: 1fr;
+    box-sizing: border-box;
+  }
+
+  input,
+  .input-texto {
+    border: 1px solid #404040;
+    height: 40px;
+    box-sizing: border-box;
+    width: 100%;
+  }
+
+  .input-texto {
+    width: 100%;
+    height: 200px;
+    resize: none;
     box-sizing: border-box;
   }
 
@@ -155,6 +174,7 @@ input[type='email'],
 
   .formulario {
     margin-top: 3%;
+    margin: 3% auto;
   }
 
   #contato {
