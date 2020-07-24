@@ -1,76 +1,73 @@
-#contato{
+#contato {
   position: absolute;
   top: 50px;
 }
 
+.page-contato {
+  position: relative;
+  padding-top: 7%;
+  padding-bottom: 7%;
+}
 
-span{
+span {
   font-size: 14px;
   margin-left: 3px;
 }
 
-input, .input-texto{
+input,
+.input-texto {
   border: 1px solid #404040;
   width: 100%;
-  height: 40px; 
+  height: 40px;
+  box-sizing: border-box;
 }
 
-input[type="text"], input[type="email"], .input-texto{
+input[type='text'],
+input[type='email'],
+.input-texto {
   padding: 10px;
   font-size: 18px;
   color: #000;
   font-family: 'Alegreya Sans', sans-serif;
   font-weight: 400;
+  box-sizing: border-box;
 }
-.input-texto{
+
+.input-texto {
   width: 100%;
   height: 200px;
   resize: none;
+  box-sizing: border-box;
 }
 
-.page-contato{
-  position: relative;
-  padding-top: 7%;
-  padding-bottom: 7%;
-  
-  
-}
-.titulo-contato{
+.titulo-contato {
   text-align: center;
-  padding-bottom:7%;
-  user-select: none; 
+  padding-bottom: 7%;
+  user-select: none;
   width: 100%;
 }
 
-.titulo-cont{
+.titulo-cont {
   font-size: 30px;
   text-align: center;
-  padding-bottom:7%;
-  user-select: none; 
+  padding-bottom: 7%;
+  user-select: none;
   width: 100%;
 }
-.orcamento{
+.orcamento {
   display: flex;
   align-items: flex-start;
   flex-direction: column;
 }
 
-.meios-contato{
+.meios-contato {
   display: grid;
   grid-template-columns: 1fr 1fr;
-  grid-gap: 60px;
+  grid-gap: 10px;
   width: 100%;
 }
 
-
-
-.mapa {
-  width: 100%;
-  height: 200px;
-  margin-bottom: 20px;
-}
-
-.botao-enviar{
+.botao-enviar {
   margin-top: 2%;
   padding: 20px 30px;
   background-color: #32323c;
@@ -80,42 +77,38 @@ input[type="text"], input[type="email"], .input-texto{
   font-size: 18px;
 }
 
-.dados{
+.form-erro,
+.form-sucesso {
+  text-align: center;
+}
+
+.dados {
   margin-top: 40px;
   margin-left: 30px;
   width: 100%;
-  
 }
 
 .dados b {
   margin-top: 20px;
-  
 }
 
-
-
-.info h3{
+.info h3 {
   margin-bottom: 10px;
   border-bottom: 1px solid #404040;
 }
 
-
-
-
-
-
-.info{
+.info {
   display: flex;
   flex-direction: column;
   justify-content: start;
 }
 
-.info h3{
+.info h3 {
   align-items: flex-start;
   width: 300px;
 }
 
-.info a{
+.info a {
   text-decoration: none;
 }
 
@@ -123,22 +116,22 @@ input[type="text"], input[type="email"], .input-texto{
   font-size: 18px;
 }
 
-.botao-link{
+.botao-link {
   display: grid;
   grid-template-columns: 1fr 3fr;
   grid-gap: 5px;
 }
 
-.botao-link b{
+.botao-link b {
   position: relative;
   top: -5px;
 }
 
-.dado{
+.dado {
   margin-top: 10px;
 }
 
-.botao-whatsapp{
+.botao-whatsapp {
   display: flex;
   align-items: center;
   justify-content: center;
@@ -146,10 +139,32 @@ input[type="text"], input[type="email"], .input-texto{
   width: 100%;
 }
 
-
 @media only screen and (max-width: 1000px) {
-  .meios-contato{
+  .page-contato {
+    position: relative;
+    padding-top: 7%;
+    padding-bottom: 7%;
+    margin: 0 20px;
+  }
+
+  .meios-contato {
     grid-template-columns: 1fr;
+    box-sizing: border-box;
+  }
+
+  input,
+  .input-texto {
+    border: 1px solid #404040;
+    height: 40px;
+    box-sizing: border-box;
+    width: 100%;
+  }
+
+  .input-texto {
+    width: 100%;
+    height: 200px;
+    resize: none;
+    box-sizing: border-box;
   }
 
   .mapa {
@@ -157,32 +172,30 @@ input[type="text"], input[type="email"], .input-texto{
     height: 300px;
   }
 
-  .formulario{
+  .formulario {
     margin-top: 3%;
+    margin: 3% auto;
   }
 
-  #contato{
+  #contato {
     position: absolute;
     top: -50px;
   }
 
-  .dados{
+  .dados {
     margin-top: 40px;
     margin-left: 0px;
     width: 100%;
     display: flex;
     align-items: center;
-    flex-direction: column;    
+    flex-direction: column;
   }
 
-  .botao-whatsapp{
+  .botao-whatsapp {
     display: flex;
     align-items: center;
     justify-content: center;
     height: 20px;
     width: 90%;
   }
-
- 
 }
-
