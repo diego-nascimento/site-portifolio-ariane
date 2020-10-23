@@ -25,7 +25,7 @@ $email->setReplyTo($email_user, $nome_user);
 $email->setSubject("Formulário Ariane Miranda - Copyright - Formulario");
 $email->addContent("text/plain", $body_content);
 
-$sendgrid = new \SendGrid("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");
+$sendgrid = new \SendGrid(.$_ENV["sendgridURL"]);
 try {
     $response = $sendgrid->send($email);
     print $response->statusCode() . "\n";
